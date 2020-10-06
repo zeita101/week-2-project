@@ -46,19 +46,19 @@ console.log (hero);
       alert(`${hero} wins`);
    }
    console.log(heroHealth, monsterHealth);
-//   let roundTwo = prompt("Would you like to play again?")
-// if (roundTwo === "yes"){
-//   fight();
-// }else if (roundTwo === "no"){
-//   alert(`Thanks for playing!`)
-// }
+let roundTwo = prompt("Would you like to play again?")
+if (roundTwo === "yes"){
+  fight();
+}else if (roundTwo === "no"){
+  alert(`Thanks for playing!`)
+}
 }
 
 fight();
 
-let roundTwo = prompt("Would you like to play again?");
-while (roundTwo === "yes"){
-  fight();
-  roundTwo = prompt("Would you like to play again?");
+//let roundTwo = prompt("Would you like to play again?");
+// while (roundTwo === "yes"){
+//   fight();
+//   roundTwo = prompt("Would you like to play again?");
   
-}
+
